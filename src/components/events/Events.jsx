@@ -8,9 +8,12 @@ function Events() {
     <div className={styles.container}>
 
       {eventsList.map((e)=>{
-        return(<>
-        		<SingleEvent desc={e.desc}/>
-        </>)
+        return(
+        <div key={e.desc}>
+          
+        		<SingleEvent  desc={e.desc}/>
+        </div>
+        )
       })}
 
     </div>

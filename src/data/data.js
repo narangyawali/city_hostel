@@ -20,9 +20,9 @@ const eventsList = [
     img: "",
   },
   {
-    name:"Outdoor Activities",
-    desc:"Organize outdoor activities like hiking trips, bike tours, or beach excursions, encouraging guests to explore the natural beauty of the surrounding area.",
-    img:""
+    name: "Outdoor Activities",
+    desc: "Organize outdoor activities like hiking trips, bike tours, or beach excursions, encouraging guests to explore the natural beauty of the surrounding area.",
+    img: "",
   },
   {
     name: "Workshops and Classes",
@@ -35,11 +35,69 @@ const eventsList = [
     img: "",
   },
   {
-    name:"Game Tournaments",
-    desc:"Set up gaming consoles or board games for guests to participate in friendly competitions or tournaments.",
-    img:""
+    name: "Game Tournaments",
+    desc: "Set up gaming consoles or board games for guests to participate in friendly competitions or tournaments.",
+    img: "",
   },
 ];
 
+const teamMembers = [
+  { name: "Bidhur Ghimire" ,
+		post:"C.E.O",
+    img:"bidur.jpg",
+    fb:"https://www.facebook.com/king.bidur",
+    contact:"9844770214"		
+	},
+  { name: "Naran Gyawali" ,
+		post:"President",
+    img:"",
+    fb:"",
+    contact:"9742362034"		
+	},
+  { name: "Bibek Ghimire" ,
+		post:"Events and Activities Coordinator",
+    img:"",
+    fb:"",
+    contact:""		
+	},
+  { name: "" ,
+		post:"Front Desk Staff/Receptionists",
+    img:"",
+    fb:"",
+    contact:""		
+	},
+  { name: "" ,
+		post:"Housekeeping Staff",
+    img:"",
+    fb:"",
+    contact:""		
+	},
+  { name: "" ,
+		post:"Maintenance Staff:",
+    img:"",
+    fb:"",
+    contact:""		
+	},
+  { name: "" ,
+		post:"Kitchen and Food Service Staff",
+    img:"",
+    fb:"",
+    contact:""		
+	},
+  { name: "" ,
+		post:"Administration /Management Staff",
+    img:"",
+    fb:"",
+    contact:""		
+	},
+  { name: "" ,
+		post:"Security Staff",
+    img:"",
+    fb:"",
+    contact:""		
+	},
 
-export {eventsList}
+
+];
+
+export { eventsList , teamMembers};
