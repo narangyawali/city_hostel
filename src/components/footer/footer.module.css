@@ -1,0 +1,31 @@
+
+.footer{
+	display: flex;
+    flex-direction: column;
+		
+    background-color: black;
+    opacity: 80%;
+    color: white;
+}
+
+.contacts{
+    margin: 20px 5px;
+    padding: 20px;
+    display: flex;
+    justify-items:center;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+
+.card{
+    background-color: wheat;
+}
+
+.brand_logo{
+    
+}
+
+.logo_img{
+    border-radius: 100%;
+}
