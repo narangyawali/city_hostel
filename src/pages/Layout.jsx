@@ -1,3 +1,4 @@
+import About from "../components/about/About";
 import Home from "../components/home/Home";
 
 function Layout() {
@@ -5,7 +6,7 @@ function Layout() {
     <>
     {/* <h1>hooo</h1> */}
       <Home />
-
+		<About/>	
 
     </>
   );

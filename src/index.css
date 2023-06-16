@@ -19,10 +19,13 @@
   margin: 0 !important;
   padding: 0;
   box-sizing: border-box;
+  /* max-width: 1280px; */
   max-width: 1880px;
 
 }
-
+body{
+	overflow-x: hidden;
+}
 *, *::after, *::before{
   margin: 0;
   padding: 0;
