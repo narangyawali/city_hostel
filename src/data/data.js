@@ -100,4 +100,25 @@ const teamMembers = [
 
 ];
 
-export { eventsList , teamMembers};
+const testimonyList =[
+  {
+    name:"Yogesh Achrya",
+    role:"Former Guest",
+    img:"",
+    thoughts:"very nice and welcoming Set up gaming consoles or board games for guests to participate in friendly competitions or tournaments."
+  },
+  {
+    name:"Suray Raj Bista",
+    role:"Gurdian of former guest",
+    img:"",
+    thoughts:"One that i can trust and very homely environment i was delighted to be a part of this instutuiton"
+  },
+  {
+    name:"Ashok Neupane",
+    role:"Returning Guest",
+    img:"",
+    thoughts:"wow just wow ! this is very good and how can i describe the value i got from here"
+  }
+]
+
+export { eventsList , teamMembers, testimonyList};
