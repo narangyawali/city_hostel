@@ -3,7 +3,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
+	
+    padding: 3px 20px;
     margin-bottom: 25px;
 }
 
@@ -16,4 +17,15 @@
     background-size: cover;
 
     margin: 5px 10px;
+
+}
+
+.single_event_container{
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ 	margin: 5px 10px;
+	/* border: 1px solid red; */
 }

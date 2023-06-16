@@ -11,7 +11,7 @@ function Events() {
         return(
         <div key={e.desc}>
           
-        		<SingleEvent  desc={e.desc}/>
+        		<SingleEvent  data={e}/>
         </div>
         )
       })}
@@ -25,12 +25,15 @@ function Events() {
 const SingleEvent =(props)=>{
 
   return(<>
-  		<div className={styles.event_card} style={{background:"url:()"}}>
+  <div className={styles.single_event_container}>
 
+  		<div className={styles.event_card} style={{backgroundImage:`url(/events/${props.data.img})`}}>
+      </div>
+				<h3>{props.data.name}</h3>
       <div className={styles.description}>
-					{props.desc}
+					{props.data.desc}
       </div>
-      </div>
+  </div>
   </>)
 }
 

@@ -75,14 +75,14 @@ const partners=["ac","ismt","ki","ps","ss","mm"]
       autoplay={true}
       slidesPerView={3}
       spaceBetween={50}
-      speed={2000}
+      speed={1500}
     >
 			{partners.map((e)=>{
 				return(
 				<div key={Math.random()}>
         <SwiperSlide >
          
-					<img className={styles.p_img} src={`/partners/${e}.png`} alt="" />
+					<img className={styles.c_logo} src={`/partners/${e}.png`} alt="" />
         </SwiperSlide>
         </div>)
       })}
