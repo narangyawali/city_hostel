@@ -50,51 +50,51 @@ const teamMembers = [
 	},
   { name: "Naran Gyawali" ,
 		post:"President",
-    img:"",
-    fb:"",
+    img:"1.jpeg",
+    fb:"www.facebook.com",
     contact:"9742362034"		
 	},
   { name: "Bibek Ghimire" ,
 		post:"Events and Activities Coordinator",
-    img:"",
-    fb:"",
-    contact:""		
+    img:"2.jpeg",
+    fb:"www.facebook.com",
+    contact:"+9779876543211"		
 	},
-  { name: "" ,
+  { name: "Sandesh Shrestha" ,
 		post:"Front Desk Staff/Receptionists",
-    img:"",
-    fb:"",
-    contact:""		
+    img:"3.jpeg",
+    fb:"www.facebook.com",
+    contact:"+9779876543211"		
 	},
-  { name: "" ,
+  { name: "Bibek Thapa" ,
 		post:"Housekeeping Staff",
-    img:"",
-    fb:"",
-    contact:""		
+    img:"4.jpeg",
+    fb:"www.facebook.com",
+    contact:"+9779876543211"		
 	},
-  { name: "" ,
+  { name: "Mohan Adhakari" ,
 		post:"Maintenance Staff:",
-    img:"",
-    fb:"",
-    contact:""		
+    img:"5.jpeg",
+    fb:"www.facebook.com",
+    contact:"+9779876543211"		
 	},
-  { name: "" ,
+  { name: "Yuvraj Khanal" ,
 		post:"Kitchen and Food Service Staff",
-    img:"",
-    fb:"",
-    contact:""		
+    fb:"www.facebook.com",
+    img:"6.jpeg",
+    contact:"+9779876543211"		
 	},
-  { name: "" ,
+  { name: "Binod Achrya" ,
 		post:"Administration /Management Staff",
-    img:"",
-    fb:"",
-    contact:""		
+    img:"7.jpeg",
+    fb:"www.facebook.com",
+    contact:"+9779876543211"		
 	},
-  { name: "" ,
+  { name: "Sontosh Pandey" ,
 		post:"Security Staff",
-    img:"",
-    fb:"",
-    contact:""		
+    img:"8.jpeg",
+    fb:"www.facebook.com",
+    contact:"+9779876543211"		
 	},
 
 
@@ -104,19 +104,19 @@ const testimonyList =[
   {
     name:"Yogesh Achrya",
     role:"Former Guest",
-    img:"",
+    img:"a.jpeg",
     thoughts:"very nice and welcoming Set up gaming consoles or board games for guests to participate in friendly competitions or tournaments."
   },
   {
     name:"Suray Raj Bista",
     role:"Gurdian of former guest",
-    img:"",
+    img:"2.jpeg",
     thoughts:"One that i can trust and very homely environment i was delighted to be a part of this instutuiton"
   },
   {
     name:"Ashok Neupane",
     role:"Returning Guest",
-    img:"",
+    img:"3.jpeg",
     thoughts:"wow just wow ! this is very good and how can i describe the value i got from here"
   }
 ]

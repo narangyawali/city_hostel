@@ -1,7 +1,6 @@
 import styles from "./team.module.css"
 import { teamMembers } from "../../data/data"
 
-import photo from "../../assets/teams/bidur.jpg"
 
 function Team() {
   return (<>
@@ -27,7 +26,7 @@ const TeamCard=(props)=>{
 	
   return(<>
   		<div className={styles.card}>
-        <img className={styles.p_img} src={photo} alt="" />
+        <img className={styles.p_img} src={`/${props.data.img}`} alt="" />
         <p>{props.data.name}</p>
         <p>{props.data.post}</p>
         <div>

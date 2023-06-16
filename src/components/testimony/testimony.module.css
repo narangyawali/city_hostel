@@ -31,8 +31,10 @@
 }
 
 
-.P_img{
-    width:250px;
+.p_img{
+    width:150px;
     height: 150px;
-    margin: 10px 8px;
+    margin: 15px 13px;
+	border-radius: 100%;
+
 }

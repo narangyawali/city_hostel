@@ -47,9 +47,9 @@ const Card = (props)=>{
   		<div className={styles.container}>
         <div className={styles.left}>
           <div className={styles.img_container}>
-            <img src alt="" />
+            <img className={styles.p_img} src={`/${props.data.img}`} alt="" />
           </div>
-          <h4>{props.data.name}</h4>
+          <h4 style={{marginTop:30}}>{props.data.name}</h4>
           <h4>{props.data.role}</h4>
         </div>
         <div className={styles.right}>
