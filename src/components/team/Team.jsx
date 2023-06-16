@@ -2,8 +2,9 @@
 
 
 function Team() {
-  return (
-    <div>Team</div>
+  return (<>
+  		<h1>Our Teams</h1>
+  </>
   )
 }
 
