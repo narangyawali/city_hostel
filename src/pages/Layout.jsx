@@ -1,11 +1,14 @@
+import Home from "../components/home/Home";
 
-
-import React from 'react'
-
-function Home() {
+function Layout() {
   return (
-    <h1>Home</h1>
-  )
+    <>
+    {/* <h1>hooo</h1> */}
+      <Home />
+
+
+    </>
+  );
 }
 
-export default Home
+export default Layout;
