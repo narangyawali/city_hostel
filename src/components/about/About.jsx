@@ -22,15 +22,19 @@ function About() {
     <div className={styles.about_right} style={{textAlign:'left'}}>
       <h1>About Us</h1>
       <div data-aos="fade-left">
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci asperiores vero non eveniet quo, earum a quaerat cum recusandae fugiat! Tenetur velit ducimus voluptatum corrupti doloribus dicta quod! Iure, autem.</p>
+      <p>
+        Welcome to our exceptional hostel, where comfort and community converge to create an unforgettable stay. Immerse yourself in the vibrant atmosphere of our well-designed accommodations, where you can relax and connect with fellow travelers. Our dedicated team is committed to providing a memorable experience, ensuring your time with us is filled with laughter, adventure, and a sense of belonging.
+      </p>
       </div>
       <div data-aos="fade-left">
-
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci labore itaque hic, molestias delectus atque, voluptate nam vitae similique accusantium velit mollitia tempora alias optio. Nam repellendus sit debitis eius.</p>
+				<p>
+          Step into our remarkable hostel, where hospitality takes center stage. Discover a haven of warmth and charm, where modern amenities and thoughtfully designed spaces cater to your every need. Embrace the spirit of exploration as you forge new connections, share stories, and create memories that will last a lifetime. Your perfect getaway starts here.
+        </p>
       </div>
       <div data-aos="fade-left">
-
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo praesentium, corporis tempora laudantium aliquam a alias! Ut numquam, placeat voluptates necessitatibus animi molestias sed qui nulla officia! Repellat, voluptatibus ipsa.</p>
+				<p>
+          Experience the epitome of hospitality at our great hostel, where comfort meets camaraderie. With stylish and cozy accommodations, vibrant communal spaces, and a friendly staff, we create a welcoming atmosphere for travelers from all walks of life. Discover a home away from home, where memorable experiences and lifelong friendships are made.
+        </p>
       </div>
 
       

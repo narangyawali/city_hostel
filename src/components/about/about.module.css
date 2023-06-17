@@ -37,3 +37,6 @@
 .about_right{
     flex: 1%;
 }
+p{
+    padding-bottom: 15px;
+}

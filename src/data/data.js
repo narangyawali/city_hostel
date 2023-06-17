@@ -105,19 +105,19 @@ const testimonyList =[
     name:"Yogesh Achrya",
     role:"Former Guest",
     img:"a.jpeg",
-    thoughts:"very nice and welcoming Set up gaming consoles or board games for guests to participate in friendly competitions or tournaments."
+    thoughts:"During my recent stay at this hostel, I was truly impressed by the exceptional level of service and attention to detail. From the warm welcome at check-in to the impeccable cleanliness of the room, every aspect exceeded my expectations. The staff went above and beyond to ensure my comfort, and their genuine friendliness made me feel right at home. I highly recommend this hotel to anyone seeking a memorable and enjoyable stay."
   },
   {
     name:"Suray Raj Bista",
     role:"Gurdian of former guest",
     img:"2.jpeg",
-    thoughts:"One that i can trust and very homely environment i was delighted to be a part of this instutuiton"
+    thoughts:"Having recently stayed at this hostel, I can confidently say it was an absolute pleasure. From the moment I entered, I was greeted with a warm smile and a genuine willingness to assist. The room was beautifully appointed, showcasing a perfect blend of comfort and style. The staff's attentiveness and personalized service made my stay truly exceptional, and I would gladly return without hesitatioOne that i can trust and very homely environment i was delighted to be a part of this instutuitonn"
   },
   {
     name:"Ashok Neupane",
     role:"Returning Guest",
     img:"3.jpeg",
-    thoughts:"wow just wow ! this is very good and how can i describe the value i got from here"
+    thoughts:"My experience at this hostel was nothing short of fantastic. The attention to detail and the level of care provided by the staff exceeded my expectations. From the luxurious amenities in the room to the delectable dining options, every aspect contributed to a memorable stay. The team's professionalism and willingness to go the extra mile truly set this hotel apart. I wholeheartedly recommend it to anyone seeking a top-notch hospitality experience."
   }
 ]
 

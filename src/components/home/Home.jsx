@@ -34,7 +34,7 @@ const Writer =()=>{
     <div className={styles.writer}>
       <h1>
             <Typewriter
-            	options={{strings:["Hello World From Naran"], autoStart:true, loop:true}}
+            	options={{strings:["We are City Hostel","A Home Away from Home","Comfort, Convenience, and Camaraderie",], autoStart:true, loop:true,}}
               />
               </h1>
 
