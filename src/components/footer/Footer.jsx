@@ -29,15 +29,15 @@ const Contact =()=>{
   return(<>
   		<div className={styles.contacts}>
         <div className={styles.card}>
-          <p>ico</p>
+          <img className={styles.img_contact} src="/icons/ph.svg" alt="" /> 
           <div>
 
-          <h4>Phome</h4>
+          <h4>Phone</h4>
           <h5>+9779876543211</h5>
           </div>
         </div>
         <div className={styles.card}>
-          <p>ico</p>
+          <img className={styles.img_contact} src="/icons/lo.svg" alt="" /> 
           <div>
 
           <h4>Address</h4>
@@ -45,7 +45,7 @@ const Contact =()=>{
           </div>
         </div>
         <div className={styles.card}>
-          <p>ico</p>
+          <img className={styles.img_contact} src="/icons/em.svg" alt="" /> 
           <div>
 
           <h4>E mail</h4>

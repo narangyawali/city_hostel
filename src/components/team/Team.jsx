@@ -29,8 +29,11 @@ const TeamCard=(props)=>{
         <img className={styles.p_img} src={`/${props.data.img}`} alt="" />
         <p>{props.data.name}</p>
         <p>{props.data.post}</p>
-        <div>
-          <a href={props.data.fb}>fb</a>
+        <div className={styles.team_contact}>
+          <a href={props.data.fb}>
+            <img className={styles.fbicon} src="/icons/fb.svg" alt="" />
+            
+          </a>
           <p style={{display:"inline"}}>Con</p>
         </div>
       </div>
