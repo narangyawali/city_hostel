@@ -42,7 +42,9 @@
     text-transform: none;
     text-decoration: none;
 }
-
+.footer_fb{
+    color: aliceblue;
+}
 
 .img_contact{
     height: 35px;

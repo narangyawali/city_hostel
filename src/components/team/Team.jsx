@@ -1,5 +1,8 @@
 import styles from "./team.module.css"
 import { teamMembers } from "../../data/data"
+import AOS from 'aos'
+import "aos/dist/aos.css"
+AOS.init()
 
 
 function Team() {
@@ -25,7 +28,7 @@ function Team() {
 const TeamCard=(props)=>{
 	
   return(<>
-  		<div className={styles.card}>
+  		<div data-aos="flip-left" className={styles.card}>
         <img className={styles.p_img} src={`/${props.data.img}`} alt="" />
         <p>{props.data.name}</p>
         <p>{props.data.post}</p>
@@ -34,7 +37,13 @@ const TeamCard=(props)=>{
             <img className={styles.fbicon} src="/icons/fb.svg" alt="" />
             
           </a>
-          <p style={{display:"inline"}}>Con</p>
+						<a className={styles.contact} href={props.data.fb}>
+            <img className={styles.fbicon} src="/icons/ph.svg" alt="" />
+            <div className={styles.phno}>
+              {props.data.contact}
+            </div>
+            
+          </a>
         </div>
       </div>
     	

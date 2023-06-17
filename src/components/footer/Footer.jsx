@@ -14,11 +14,11 @@ function Footer() {
       	<div className={styles.brand_logo}>
           <img className={styles.logo_img} src={logo} alt="" />
         </div>
+          {/* <img className={styles.footer_fb} src="/icons/fb.svg" alt="" />  */}
 				<h1 style={{color:"white"}}> 
-          <a className={styles.fb} href="">FB</a> 
          </h1>
         <h3 style={{color:"white", margin:"15px"}}>© 2023 City Hostel . All Rights Reserved.</h3>
-				<h5>Developed With Love and Coffee by Naran Gyawali  &lt;/&gt; </h5>
+				<h5 style={{color:"white"}}>Developed With Love and Coffee by Naran Gyawali  &lt;/&gt; </h5>
       </div>
     </div>
   )

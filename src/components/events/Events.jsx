@@ -1,10 +1,13 @@
 import styles from "./events.module.css"
 
 import {eventsList}from '../../data/data.js'
+import AOS from 'aos'
+import "aos/dist/aos.css"
+AOS.init()
 
 function Events() {
   return (<>
-    <h1 id="Events">Some Events Organized by us</h1>
+    <h1 d id="Events">Some Events Organized by us</h1>
     <div className={styles.container}>
 
       {eventsList.map((e)=>{
@@ -25,7 +28,7 @@ function Events() {
 const SingleEvent =(props)=>{
 
   return(<>
-  <div className={styles.single_event_container}>
+  <div data-aos="fade-up" className={styles.single_event_container}>
 
   		<div className={styles.event_card} style={{backgroundImage:`url(/events/${props.data.img})`}}>
       </div>
