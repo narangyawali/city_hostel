@@ -15,11 +15,13 @@
     align-items: center;
     justify-content: center;
 
-    border: 1px solid rebeccapurple;
-    margin: 1px;
+    /* border: 1px solid rebeccapurple; */
+    margin: 5px;
     /* height: 150px; */
     width: 250px;
     height: 250px;
+    background-color: #F2F6FB;
+    border-radius: 25px;
 
     
 }

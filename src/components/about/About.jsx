@@ -5,7 +5,7 @@ import staff from '../../assets/hostel_staff.jpeg'
 
 function About() {
   return (<>
-  <h1>About</h1>
+  <h1 id='about'>About</h1>
   <div className={styles.container}>
     <div className={styles.about_left}>
       <div className={styles.about_card_bg}></div>

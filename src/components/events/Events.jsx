@@ -4,7 +4,7 @@ import {eventsList}from '../../data/data.js'
 
 function Events() {
   return (<>
-    <h1>Some Events Organized by us</h1>
+    <h1 id="Events">Some Events Organized by us</h1>
     <div className={styles.container}>
 
       {eventsList.map((e)=>{

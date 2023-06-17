@@ -14,7 +14,7 @@ import "swiper/css/pagination"
 function Testimony() {
   SwiperCore.use([Autoplay])
   return (<>
-  	<h1>What Our Well Wishers Say</h1>
+  	<h1 id="partners" >What Our Well Wishers Say</h1>
     <Swiper
     	modules={[Pagination]}
       loop={true}
@@ -33,8 +33,9 @@ function Testimony() {
 
 
     </Swiper>
-
+		<div className={styles.partners_container}>
   <Partners/>			
+    </div>
 
   </>)
 }
@@ -79,7 +80,7 @@ const partners=["ac","ismt","ki","ps","ss","mm"]
     >
 			{partners.map((e)=>{
 				return(
-				<div key={Math.random()}>
+				<div className={styles.partner} key={Math.random()}>
         <SwiperSlide >
          
 					<img className={styles.c_logo} src={`/partners/${e}.png`} alt="" />

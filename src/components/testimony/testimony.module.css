@@ -4,8 +4,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid saddlebrown;
+    /* border: 1px solid saddlebrown; */
     padding: 10px ;
+    background-color: #dee6f0;
+    border-radius: 35px;
+    margin: 10px 35px;
 }
 
 .left{
@@ -43,3 +46,9 @@
     margin: 15px 13px;
 
 }
+.partners_container{
+ 
+    background-color :#F2F6FB ;
+
+}
+

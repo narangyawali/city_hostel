@@ -8,21 +8,42 @@
 	/* background-attachment: fixed; */
 
     padding-top: 30px;
+}
 
+.writer{
+
+    position: absolute;
+    top: 35%;
+    left:30%;
+    color: #dde9f7;
 }
 
 
 .nav{
+    background-color: #dde9f7; 
     width: 100vw;
-    position:absolute;
+    position:fixed;
+    z-index: 50;
     top: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 100px;
+    padding: 5px 150px 5px 150px;
 }
 
+.nav_item{
+    display: inline;
+    cursor: pointer;
+    transition: all smooth ;
+    padding:3px;
+    margin :5px;
+    text-transform: uppercase;
+    color:black;
+}
+.nav_item:hover{
+    border-bottom: 2px solid blue;
+}
 .imgContainer{
 border-radius: 2px;
 }
@@ -30,7 +51,7 @@ border-radius: 2px;
 	padding: 0px 15px;
 }
 .img{
-    height: 75px;
+    height: 70px;
     border-radius: 100px;
     
 }

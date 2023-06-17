@@ -4,7 +4,7 @@ import { teamMembers } from "../../data/data"
 
 function Team() {
   return (<>
-  		<h1>Our Teams</h1>
+  		<h1 id="teams">Our Teams</h1>
       <div className={styles.container}>
         {teamMembers.map((e)=>{
 
