@@ -52,3 +52,23 @@
 
 }
 
+
+@media screen and (max-width:480px){
+	.container{
+        flex-direction: column;
+        padding: 2px 4px;
+        margin: 10px 10px ;
+    }	
+    .right{
+        padding: 2px 4px;
+
+    }
+    .thoughts{
+        padding: 0;
+    }
+
+    .c_logo{
+        max-width: 120px;
+    }
+
+}

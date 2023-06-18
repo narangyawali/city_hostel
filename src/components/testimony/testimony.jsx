@@ -1,3 +1,4 @@
+import { useState , useEffect } from 'react'
 
 import styles from "./testimony.module.css"
 import { testimonyList } from "../../data/data"
@@ -54,7 +55,7 @@ const Card = (props)=>{
           <h4>{props.data.role}</h4>
         </div>
         <div className={styles.right}>
-					<p>{props.data.thoughts}</p>	
+					<p className={styles.thoughts} >{props.data.thoughts}</p>	
         </div>
       </div>
   </>)
@@ -64,6 +65,22 @@ const Card = (props)=>{
 
 
 const Partners =()=>{
+
+const [slides , setSlides] = useState(1)
+
+useEffect(() => {
+  console.log(window.innerWidth);
+  if (window.innerWidth < 500) {
+    setSlides(2)
+  }
+  else{
+   	setSlides(3) 
+  }
+
+ 
+}, [])
+
+
 const partners=["ac","ismt","ki","ps","ss","mm"]
 
   return(<>
@@ -74,7 +91,7 @@ const partners=["ac","ismt","ki","ps","ss","mm"]
     	modules={[Pagination]}
       loop={true}
       autoplay={true}
-      slidesPerView={3}
+      slidesPerView={ slides }
       spaceBetween={50}
       speed={1500}
     >

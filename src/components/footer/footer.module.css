@@ -50,3 +50,16 @@
     height: 35px;
     margin: 15px;
  }
+
+
+@media screen and (max-width:480px){
+	
+    .contacts{
+        flex-direction: column;
+        
+    }
+    .card{
+        margin: 8px 3px ;
+    }
+
+}

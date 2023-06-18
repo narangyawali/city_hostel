@@ -57,3 +57,23 @@
 .contact:hover .phno{
     display: block;
 }
+
+@media screen and (max-width:480px){
+
+    .container{
+        padding: 2px ;
+        
+    }
+
+    .card{
+        width: 200px;
+    }
+
+    .phno{
+        top:-14px;
+    }
+
+}
+
+
+

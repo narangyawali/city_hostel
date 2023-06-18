@@ -15,7 +15,6 @@ function Layout() {
     <MessengerCustomerChat
     		pageId="106947385769745"
         appId="246863197967981"
-    
     />
 
       <Home />
