@@ -1,3 +1,4 @@
+import { useRef, useState } from "react"
 
 import styles from "./home.module.css"
 import logo from "../../assets/logo.jpeg"
@@ -20,10 +21,10 @@ export default function Home() {
 
             /> */}
 
+    <Nav/>
     </div>
 
 		<Writer/>
-    <Nav/>
   </>
   )
 }
@@ -43,6 +44,14 @@ const Writer =()=>{
 }
 
 const Nav=()=>{
+
+  const [mob , setMob]= useState(false)
+
+  const toggle=()=>{
+    setMob( mob ?false:true)
+    console.log("toggle function ");
+  }
+
   return(<>
   
   <nav  className={styles.toggle} >
@@ -60,6 +69,21 @@ const Nav=()=>{
       <LinkTo to={"contact"}/>
 
     </div>
+    
+    <button className={styles.btn} onClick={ toggle }> ◀  </button>
+    {
+      mob && 
+    <div  className={styles.mob_sections}>
+      <LinkTo to={"home"}/>
+      <LinkTo to={"about"}/>
+      <LinkTo to={"events"}/>
+      <LinkTo to={"teams"}/>
+      <LinkTo to={"partners"}/>
+      <LinkTo to={"contact"}/>
+
+    </div>
+    }
+
     </div>
   </nav>
   </>)
