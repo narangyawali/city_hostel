@@ -42,7 +42,7 @@ const eventsList = [
 ];
 
 const teamMembers = [
-  { name: "Bidhur Ghimire" ,
+  { name: "Bidur Ghimire" ,
 		post:"C.E.O",
     img:"bidur.jpg",
     fb:"https://www.facebook.com/king.bidur",
