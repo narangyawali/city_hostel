@@ -6,11 +6,13 @@
     align-items: center;
     /* border: 1px solid saddlebrown; */
     padding: 10px ;
-    background-color: #dee6f0;
+    background-color: #242424;
     border-radius: 35px;
     margin: 10px 35px;
 }
-
+.testimony_bg{
+	background-color:#f2f6fb
+}
 .left{
     /* flex: 0.8%; */
     width: 40%;

@@ -15,6 +15,7 @@ import "swiper/css/pagination"
 function Testimony() {
   SwiperCore.use([Autoplay])
   return (<>
+		<div className={styles.testimony_bg}>
   	<h1 id="partners" >What Our Well Wishers Say</h1>
     <Swiper
     	modules={[Pagination]}
@@ -34,6 +35,7 @@ function Testimony() {
 
 
     </Swiper>
+		</div>
 		<div className={styles.partners_container}>
   <Partners/>			
     </div>
